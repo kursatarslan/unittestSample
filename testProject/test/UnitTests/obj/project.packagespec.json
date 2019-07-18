@@ -1,0 +1,75 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/ttkarslan/Documents/Presentations/UnitIntegrationTest/testProject/test/UnitTests/UnitTests.csproj",
+    "projectName": "UnitTests",
+    "projectPath": "/Users/ttkarslan/Documents/Presentations/UnitIntegrationTest/testProject/test/UnitTests/UnitTests.csproj",
+    "outputPath": "/Users/ttkarslan/Documents/Presentations/UnitIntegrationTest/testProject/test/UnitTests/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/Users/ttkarslan/Documents/Presentations/UnitIntegrationTest/testProject/src/SampleApp/SampleApp.csproj": {
+            "projectPath": "/Users/ttkarslan/Documents/Presentations/UnitIntegrationTest/testProject/src/SampleApp/SampleApp.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Bogus": {
+          "target": "Package",
+          "version": "[26.0.2, )"
+        },
+        "FluentAssertions": {
+          "target": "Package",
+          "version": "[5.6.0, )"
+        },
+        "Microsoft.AspNetCore.Mvc.Core": {
+          "target": "Package",
+          "version": "[2.2.2, )"
+        },
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.0.1, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Moq": {
+          "target": "Package",
+          "version": "[4.10.1, )"
+        },
+        "NUnit3TestAdapter": {
+          "target": "Package",
+          "version": "[3.13.0, )"
+        },
+        "nunit": {
+          "target": "Package",
+          "version": "[3.11.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

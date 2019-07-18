@@ -1,0 +1,88 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/ttkarslan/Documents/Presentations/UnitIntegrationTest/testProject/test/AcceptanceTests/AcceptanceTests.csproj",
+    "projectName": "AcceptanceTests",
+    "projectPath": "/Users/ttkarslan/Documents/Presentations/UnitIntegrationTest/testProject/test/AcceptanceTests/AcceptanceTests.csproj",
+    "outputPath": "/Users/ttkarslan/Documents/Presentations/UnitIntegrationTest/testProject/test/AcceptanceTests/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/Users/ttkarslan/Documents/Presentations/UnitIntegrationTest/testProject/src/SampleApp/SampleApp.csproj": {
+            "projectPath": "/Users/ttkarslan/Documents/Presentations/UnitIntegrationTest/testProject/src/SampleApp/SampleApp.csproj"
+          },
+          "/Users/ttkarslan/Documents/Presentations/UnitIntegrationTest/testProject/test/IntegrationTests/IntegrationTests.csproj": {
+            "projectPath": "/Users/ttkarslan/Documents/Presentations/UnitIntegrationTest/testProject/test/IntegrationTests/IntegrationTests.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Bogus": {
+          "target": "Package",
+          "version": "[26.0.2, )"
+        },
+        "FluentAssertions": {
+          "target": "Package",
+          "version": "[5.6.0, )"
+        },
+        "Lambda3.AspNetCore.Mvc.Testing": {
+          "target": "Package",
+          "version": "[0.0.1-ci-11727, )"
+        },
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.0.1, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "NUnit3TestAdapter": {
+          "target": "Package",
+          "version": "[3.13.0, )"
+        },
+        "Selenium.Support": {
+          "target": "Package",
+          "version": "[3.141.0, )"
+        },
+        "Selenium.WebDriver.ChromeDriver": {
+          "target": "Package",
+          "version": "[73.0.3683.68, )"
+        },
+        "nunit": {
+          "target": "Package",
+          "version": "[3.11.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
